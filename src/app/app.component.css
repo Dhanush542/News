@@ -1,0 +1,61 @@
+nav.sticky{
+    position: sticky;
+    top: 0;
+}
+.card{
+    border: 1px solid rgba(250, 3, 213, 0.895);
+}
+.card:hover{
+    border: 2px solid #212529;
+}
+.font-bold{
+    font-weight: 700;
+}
+.text-2{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.image:hover{
+    border: 2px solid white;
+}
+.border2:hover {
+    border: 1px solid white;
+}
+.hidden{
+    display: none;
+}
+.active{
+    color: red;
+}
+@media (max-width:996px) {
+    img{
+        display: none;
+    }
+}
+@media (min-width:344px) and (max-width:430px) {
+    .navbar{
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 0;
+    }
+    h1{
+        width: 10%;
+        font-weight: 400;
+        line-height: 1em;
+    }
+    .form-control{
+        font-weight: 200;
+        font-size: 0.5rem;
+        width:50%;
+        margin:0;
+    }
+    .btn1{
+        padding: 3;
+        font-weight: 300;
+        font-size: 1rem !important;
+    }
+    
+}
